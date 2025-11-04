@@ -1,6 +1,23 @@
-test.ipynb
-test_file.py
-venv
-.vscode
-_pycache_
+# Environment and secrets
 .env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# VSCode settings
+.vscode/
+
+# Notebooks and test files
+*.ipynb
+test_file.py
