@@ -31,7 +31,7 @@ def run_agent(messages: list):
         completion = client.chat.completions.create(
             messages=messages,
             model="llama-3.3-70b-versatile",
-            max_tokens=300,
+            max_tokens=500,
             temperature=0.2
         )
         return completion.choices[0].message.content
