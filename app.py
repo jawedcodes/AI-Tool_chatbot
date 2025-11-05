@@ -112,5 +112,3 @@ if prompt := st.chat_input("Ask me anything..."):
     if st.session_state["chat_sessions"][current_id]["title"].startswith("New Chat"):
         st.session_state["chat_sessions"][current_id]["title"] = prompt[:25] + "..."
 
-    st.rerun()
-
